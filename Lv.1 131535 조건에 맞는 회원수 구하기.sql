@@ -1,0 +1,6 @@
+
+SELECT COUNT(*) AS USERS
+FROM USER_INFO
+WHERE YEAR(JOINED) = "2021" AND AGE >= 20 AND AGE <= 29
+
+#AND 사용, 구하는 년도는 YEAR, 숫자는 부등호 사용
